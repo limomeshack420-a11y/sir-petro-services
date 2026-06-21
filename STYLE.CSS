@@ -1,0 +1,147 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    line-height:1.6;
+}
+
+/* Navigation */
+
+nav{
+    background:black;
+    color:rgba(255, 196, 0, 0.993);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 8%;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+}
+
+nav ul li{
+    margin-left:20px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:white;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
+/* Hero */
+
+.hero{
+    height:100vh;
+    background:url("images/hearse-banner.jpg");
+    background-size:cover;
+    background-position:center;
+}
+
+.overlay{
+    height:100%;
+    background:rgba(0,0,0,0.6);
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    text-align:center;
+}
+
+.overlay h1{
+    font-size:40px;
+    margin-bottom:20px;
+}
+
+.overlay p{
+    font-size:22px;
+    margin-bottom:20px;
+}
+
+/* Button */
+
+.btn{
+    background:gold;
+    color:black;
+    padding:12px 25px;
+    text-decoration:none;
+    border-radius:5px;
+    font-weight:bold;
+}
+
+/* Sections */
+
+section{
+    padding:70px 10%;
+}
+
+section h2{
+    text-align:center;
+    color:goldenrod;
+    margin-bottom:30px;
+}
+
+/* Services */
+
+#services{
+    background:#f4f4f4;
+}
+
+.service-box{
+    background:white;
+    padding:20px;
+    margin:15px 0;
+    border-left:5px solid gold;
+    box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Gallery */
+
+.gallery-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:15px;
+}
+
+.gallery-grid img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+    border-radius:10px;
+}
+
+/* Contact */
+
+#contact{
+    text-align:center;
+    background:black;
+    color:white;
+}
+
+#contact h2{
+    color:gold;
+}
+
+/* Footer */
+
+footer{
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+
+footer h3{
+    color:gold;
+}
